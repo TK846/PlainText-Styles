@@ -42,11 +42,26 @@ _Italic_
 
 ### There isn't just a bold syntax, there is font weight
 
-In markdown you use \*asterisk\* syntax for plain bold
+In markdown you use \*\*asterisk\*\* syntax for **bold**
 
 but in PTS you specify the font weight:
 
 ```
 *Light* (font weight 100)
 **Light** (font weight 200)
+```
+
+### Use [] for repeating
+
+If you want 50 of the letter a you could type:
+
+```
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+```
+
+or you could type:
+
+```
+a[50]
+[a][50]
 ```
