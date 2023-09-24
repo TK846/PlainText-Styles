@@ -2,7 +2,7 @@
 
 ## What is PlainText Styles
 
-PlainText Styles is an alter alternative to Markdown, designed to have more human readable syntax
+PlainText Styles is an alter alternative to Markdown, designed to have more human readable syntax. (Partially inspired by Zim)
 
 ## The Basics
 
@@ -51,7 +51,7 @@ but in PTS you specify the font weight:
 **Light** (font weight 200)
 ```
 
-### Use [] for repeating
+### Use [ ] for repeating
 
 If you want 50 of the letter a you could type:
 
@@ -63,5 +63,8 @@ or you could type:
 
 ```
 a[50]
-[a][50]
+or
+[aa][25]
 ```
+
+#### Find the rest of the syntax in [DOCS.md](/docs/DOCS.md) or [syntax.pts](/docs/examples/)
