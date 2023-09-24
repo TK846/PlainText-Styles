@@ -68,11 +68,11 @@ epic, table
 is,   cool
 >
 
-|-----------|
-|A|B | C |D |
-|1|2 | 3 |4 |
-|-+--+---+--|
-|I|II|III|IV|
+|---+---+---+---|
+| A | B | C | D |
+| 1 | 2 | 3 | 4 |
+|---+---+---+---|
+| I |II |III|IV |
 
 
 <insert "external.pts"> or
