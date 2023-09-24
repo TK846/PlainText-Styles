@@ -1,0 +1,81 @@
+¦version: 1.0¦
+¦meta: data¦
+
+¦¦¦
+  multi: line
+  epic: metadata
+¦¦¦
+
+/Italic/
+
+**200 Font weight**
+*100 font weight*
+
+`Small code block`
+
+```lang
+Large code block
+```
+
+{Link without link name}{https://example.com}{location: (newtab, thistab)}
+ex: {Google}{https://google.com}{newtab}
+
+||Highlight||
+
+> Quote
+
+-Strikethrough-
+_Underline_
+^Overline^
+
+^^Superscript^^
+..Subscript..
+
+Cancel\* styling
+
+Cancel\
+newline
+
+\\ Shows backslash
+
+~spoiler~
+
+# Title 1 to 
+###### Title 6
+
+a[6] repeats "a" six times
+[hello][6] repeats "hello" six times
+useful for titles (#[3]) and font weight (*[5])
+
+-- makes a dash
+
+---- makes a line separator unless there are chars after it
+
+- Bullet list item
+ - Indented bullet list item
+
+*) Number list item (1))
+ *. Indented letter list item (a.)
+ 
+[ ] Not done item
+[V] Done item
+ 
+:emoji_name:
++https://example.com/image.png+ embeds an image
+
+<csv
+epic, table
+is,   cool
+>
+
+|-----------|
+|A|B | C |D |
+|1|2 | 3 |4 |
+|-+--+---+--|
+|I|II|III|IV|
+
+
+<insert "external.pts"> or
+<insert
+external.pts
+>
