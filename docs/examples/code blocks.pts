@@ -1,0 +1,17 @@
+# Code Blocks!
+
+lang`Single line code block`customize: value; <- this language support and other advanced features, but you end customization with a ;, \n or [newline]
+
+```language <- for the language you can put file extension (ex: js) or lang name (ex: javascript)
+Multiline {
+    Code block!
+}
+```customization: value, other: other-value
+
+```ansi
+\x1b[30m
+```render: true <- this will render the ansi instead of displaying the code
+
+```math <- this can be "math" or "maths", it is used instead of $
+
+```
