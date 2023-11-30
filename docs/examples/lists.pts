@@ -1,0 +1,26 @@
+Bullet list:
+ . Item 1
+  . Indented Item A
+       . Very Indented Item i
+  . Indented Item B
+ . Item 2
+
+Dash list:
+ - Foo
+ - Bar
+(The indentation rules apply to every type)
+
+Checklist:
+ _ Unchecked Item
+ V Checked item
+
+Checking the "parent" item will check all its "children" items.
+ex:
+ _ Foo
+  _ Bar 1
+  _ Bar 2
+
+Checking "Foo"
+ V Foo
+  V Bar 1
+  V Bar 2
